@@ -1,0 +1,61 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="utf-8">  
+    <title>Title</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1">     
+    <link rel="stylesheet" type="text/css" href="\jqm\jquery.mobile-1.4.3.css"/>       
+    <script type="text/javascript" src="/jqm/jquery/jquery-1.7.2.min.js"></script> 
+</head>
+    <script src="/scripts/login.js"></script>
+    <script type="text/javascript" src="/jqm/jquery.mobile-1.4.3.js"></script>           
+</head>  
+<body> 
+  
+<div data-role="page" id="login">                                                        
+    <div data-role="header">                                                  
+        <h1>LOG IN</h1>  
+    </div>  
+ 
+    <div data-role="content"> 
+		      <label for="username">User Name</label><span id='errlogin'></span>
+              <input type="email" name="lUsername" id="lUsername" placeholder="username" >
+		      <label for="Password">Password</label>
+              <input type="password" name="lPassword" id="lPassword" placeholder="Password" >
+			  </br>
+			  <button class="ui-btn ui-corner-all" id="loginbtn">Login</button>
+			  <a class="ui-btn ui-corner-all" id="signupbtn" href='#regform'>SignUp</a>
+           
+    </div>
+    
+</div> 
+<div data-role="page" id="regform">                                                        
+    <div data-role="header">                                                  
+        <h1>Register here!</h1>  
+    </div>  
+ 
+    <div data-role="content"> 
+	     
+              <label for="username">User Name</label>
+			  <input type="text" name="susername" id="susername" placeholder="username" value="">
+			  <label for="email">Email</label>
+              <input type="email" name="semail" id="semail" placeholder="username" value="">
+		      <label for=''>Phone</label>
+			  <input type='tel' name='stel' id='stel' value="">
+			  <label for="Password">Password</label>
+              <input type="password" name=sPassword id="sPassword" placeholder="Password" value="">
+			  <label for="Password">Re-enter Password</label>
+              <input type="password" name="sreenter" id="sreenter" placeholder="Re-enter" value="">
+			  </br>
+			  
+			  <button class="ui-btn ui-corner-all" id="signupbtn">SignUp</button>
+           
+    </div>
+    
+</div> 
+
+
+
+   
+</body>  
+</html>  
